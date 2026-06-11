@@ -1,0 +1,1316 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VAMAS — Designer Saree Blouses Online | Mumbai | Shop 500+ Styles</title>
+<meta name="description" content="Designer blouses crafted for the modern Indian woman — 500+ styles in silk, brocade, cotton & tissue. Free shipping above ₹999. Made in Mumbai.">
+<meta property="og:title" content="VAMAS — The Designer Blouses">
+<meta property="og:image" content="https://www.vamas.in/cdn/shop/files/vamas_socialsharingimage.png">
+<meta name="theme-color" content="#6B2D8B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="https://www.vamas.in/cdn/shop/files/1440x460.jpg" fetchpriority="high">
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --primary:#6B2D8B; --primary-dark:#4A1E61; --primary-light:#EDE7F6;
+  --accent:#D4A853; --accent-dark:#A07830;
+  --dark:#1A1A2E; --body:#4A4A6A; --surface:#F8F5FF; --white:#FFFFFF;
+  --divider:#E8E0F0; --error:#C0392B; --success:#27AE60;
+  --r-sm:4px; --r-md:8px; --r-lg:16px; --r-xl:24px; --r-pill:9999px;
+  --sh-sm:0 1px 3px rgba(107,45,139,.08);
+  --sh-md:0 4px 16px rgba(107,45,139,.12);
+  --sh-lg:0 12px 40px rgba(107,45,139,.16);
+  --t-fast:150ms ease; --t-base:250ms ease; --t-slow:400ms cubic-bezier(.4,0,.2,1);
+  --section-gap:clamp(40px,5vw,80px);
+  --serif:'Cormorant Garamond',Georgia,serif;
+  --sans:'DM Sans',-apple-system,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);font-size:15px;line-height:1.65;color:var(--body);background:var(--white)}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
+ul,ol{list-style:none}
+:focus-visible{outline:2px solid var(--primary);outline-offset:2px;border-radius:2px}
+
+/* ============ TYPE ============ */
+.t-display{font-family:var(--serif);font-weight:700;font-size:clamp(40px,5.5vw,60px);line-height:1.08;color:var(--dark)}
+.t-h2{font-family:var(--serif);font-weight:600;font-size:clamp(28px,3.4vw,38px);line-height:1.18;color:var(--dark)}
+.t-h3{font-weight:600;font-size:clamp(19px,2vw,22px);line-height:1.3;color:var(--dark)}
+.t-eyebrow{font-weight:700;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--primary)}
+.t-price{font-weight:700;font-variant-numeric:tabular-nums;color:var(--dark)}
+
+/* ============ LAYOUT ============ */
+.wrap{max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,40px)}
+section{padding-block:var(--section-gap)}
+.sec-head{text-align:center;max-width:560px;margin:0 auto clamp(28px,4vw,44px)}
+.sec-head .t-eyebrow{display:block;margin-bottom:12px}
+.sec-head p{margin-top:12px;font-size:16px}
+
+/* ============ BUTTONS ============ */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:52px;padding:0 30px;border-radius:var(--r-md);font-weight:600;font-size:15px;transition:transform var(--t-fast),background var(--t-fast),box-shadow var(--t-fast);white-space:nowrap}
+.btn:active{transform:scale(.98)}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:hover{background:var(--primary-dark);box-shadow:var(--sh-md)}
+.btn-light{background:#fff;color:var(--primary)}
+.btn-light:hover{background:var(--primary-light)}
+.btn-ghost{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.75)}
+.btn-ghost:hover{background:rgba(255,255,255,.12);border-color:#fff}
+.btn-accent{background:var(--accent);color:var(--dark)}
+.btn-accent:hover{background:var(--accent-dark);color:#fff}
+.btn-orange{background:#E07030;color:#fff}
+.btn-orange:hover{background:#c05820;box-shadow:var(--sh-md)}
+
+/* ============ ANNOUNCEMENT ============ */
+.bar{position:relative;background:var(--primary);color:#fff;height:40px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.bar__track{position:relative;height:1.4em;width:100%;max-width:680px;text-align:center}
+.bar__msg{position:absolute;inset:0;font-size:12.5px;font-weight:600;letter-spacing:.04em;opacity:0;transform:translateY(8px);animation:barCycle 15s infinite}
+.bar__msg:nth-child(2){animation-delay:5s}
+.bar__msg:nth-child(3){animation-delay:10s}
+@keyframes barCycle{0%,4%{opacity:0;transform:translateY(8px)}8%,30%{opacity:1;transform:translateY(0)}34%,100%{opacity:0;transform:translateY(-8px)}}
+.bar__close{position:absolute;right:14px;top:50%;transform:translateY(-50%);width:28px;height:28px;display:grid;place-items:center;border-radius:50%;opacity:.8;font-size:16px;line-height:1}
+.bar__close:hover{opacity:1;background:rgba(255,255,255,.15)}
+
+/* ============ HEADER ============ */
+.util{background:var(--surface);border-bottom:1px solid var(--divider);font-size:12px}
+.util .wrap{display:flex;align-items:center;justify-content:space-between;height:34px}
+.util a{color:var(--body)}
+.util a:hover{color:var(--primary)}
+.util__mid{display:none}
+@media(min-width:768px){.util__mid{display:block;font-weight:600;color:var(--primary)}}
+header.site{position:sticky;top:0;z-index:900;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:box-shadow var(--t-base),border-color var(--t-base)}
+header.site.scrolled{box-shadow:var(--sh-md);border-color:var(--divider)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:24px}
+.logo{font-family:var(--serif);font-weight:700;font-size:30px;letter-spacing:.14em;color:var(--primary);line-height:1}
+.logo small{display:block;font-family:var(--sans);font-weight:600;font-size:8.5px;letter-spacing:.32em;color:var(--body);text-transform:uppercase;margin-top:2px}
+.nav__links{display:none;align-items:center;gap:4px}
+@media(min-width:1024px){.nav__links{display:flex}}
+.nav__links>li{position:relative}
+.nav__links a{display:block;padding:10px 14px;font-weight:500;font-size:14.5px;color:var(--dark);position:relative}
+.nav__links a::after{content:"";position:absolute;left:14px;right:100%;bottom:4px;height:2px;background:var(--primary);transition:right var(--t-base)}
+.nav__links a:hover::after,.nav__links a[aria-current]::after{right:14px}
+.nav__links .sale a{color:var(--error);font-weight:600}
+.nav__icons{display:flex;align-items:center;gap:6px}
+.icon-btn{position:relative;width:42px;height:42px;display:grid;place-items:center;border-radius:50%;color:var(--dark);transition:background var(--t-fast)}
+.icon-btn:hover{background:var(--primary-light);color:var(--primary)}
+.icon-btn svg{width:21px;height:21px}
+.badge-ct{position:absolute;top:4px;right:2px;min-width:17px;height:17px;padding:0 4px;border-radius:var(--r-pill);background:var(--accent);color:var(--dark);font-size:10.5px;font-weight:700;display:grid;place-items:center}
+.burger{display:grid;place-items:center;width:42px;height:42px}
+@media(min-width:1024px){.burger{display:none}}
+
+/* mega menu */
+.mega{position:absolute;left:50%;transform:translateX(-50%) translateY(8px);top:100%;width:min(720px,92vw);background:#fff;border:1px solid var(--divider);border-radius:var(--r-lg);box-shadow:var(--sh-lg);padding:28px 32px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px;opacity:0;visibility:hidden;transition:opacity var(--t-base),transform var(--t-base),visibility var(--t-base)}
+.has-mega:hover .mega,.has-mega:focus-within .mega{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}
+.mega h4{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-dark);margin-bottom:10px}
+.mega a{padding:7px 0!important;font-size:14px!important;color:var(--body)!important}
+.mega a::after{display:none}
+.mega a:hover{color:var(--primary)!important}
+
+/* mobile nav */
+.m-nav{position:fixed;inset:0;z-index:1100;background:#fff;transform:translateX(-100%);transition:transform 300ms cubic-bezier(.4,0,.2,1);padding:24px;overflow-y:auto}
+.m-nav.open{transform:translateX(0)}
+.m-nav__top{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px}
+.m-nav li a{display:block;padding:15px 4px;font-family:var(--serif);font-size:24px;font-weight:600;color:var(--dark);border-bottom:1px solid var(--divider)}
+.m-nav .meta{margin-top:28px;font-size:13px;line-height:2}
+
+/* ============ HERO CAROUSEL ============ */
+.hero-carousel{position:relative;overflow:hidden;background:var(--primary-dark)}
+.hero-slide{position:absolute;inset:0;display:flex;align-items:center;opacity:0;transition:opacity .7s ease;pointer-events:none;min-height:88vh}
+.hero-slide.active{opacity:1;position:relative;pointer-events:auto}
+.hero-slide__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.hero-slide__veil{position:absolute;inset:0}
+.hero-carousel .wrap{position:relative;z-index:2;width:100%}
+.hero__box{max-width:560px;padding-block:96px}
+.hero__eyebrow{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:20px;padding:8px 14px;border:1px solid rgba(212,168,83,.45);border-radius:var(--r-pill);background:rgba(212,168,83,.1)}
+.hero-slide h1{font-family:var(--serif);font-weight:700;font-size:clamp(42px,6vw,68px);line-height:1.06;color:#fff;margin-bottom:20px}
+.hero-slide h1 em{font-style:italic;color:var(--accent)}
+.hero-slide p{font-size:clamp(15px,1.6vw,17px);color:rgba(255,255,255,.85);max-width:440px;margin-bottom:32px}
+.hero__ctas{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:36px}
+.hero__trust{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:13px;color:rgba(255,255,255,.8)}
+.hero__trust span{display:inline-flex;align-items:center;gap:7px}
+.hero__trust b{color:var(--accent)}
+
+/* carousel controls */
+.carousel-prev,.carousel-next{position:absolute;top:50%;z-index:10;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.18);border:1.5px solid rgba(255,255,255,.4);color:#fff;display:grid;place-items:center;transition:background var(--t-fast),transform var(--t-fast)}
+.carousel-prev{left:20px}
+.carousel-next{right:20px}
+.carousel-prev:hover,.carousel-next:hover{background:rgba(255,255,255,.32);transform:translateY(-50%) scale(1.08)}
+.carousel-prev svg,.carousel-next svg{width:20px;height:20px}
+.carousel-dots{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);z-index:10;display:flex;gap:8px}
+.carousel-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.4);border:none;transition:background var(--t-fast),transform var(--t-fast);cursor:pointer}
+.carousel-dot.active{background:#fff;transform:scale(1.3)}
+.chev{position:absolute;left:50%;bottom:52px;transform:translateX(-50%);z-index:10;color:rgba(255,255,255,.7);animation:chev 1.8s infinite;transition:opacity .5s}
+@keyframes chev{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(9px)}}
+@media(max-width:767px){
+  .hero-slide{min-height:76vh;align-items:flex-end}
+  .hero-slide.active{min-height:76vh}
+  .hero__box{padding-block:0 80px;text-align:center;margin-inline:auto}
+  .hero__ctas{justify-content:center}
+  .hero__ctas .btn{flex:1 1 100%}
+  .hero__trust{justify-content:center}
+  .carousel-prev{left:10px}
+  .carousel-next{right:10px}
+}
+
+/* ============ TRUST BAR ============ */
+.trust{background:var(--surface);border-block:1px solid var(--divider);padding:0}
+.trust__row{display:flex;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.trust__row::-webkit-scrollbar{display:none}
+.trust__item{flex:1 0 200px;display:flex;align-items:center;gap:13px;padding:22px 24px;border-right:1px solid var(--divider)}
+.trust__item:last-child{border-right:none}
+.trust__ic{flex:none;width:40px;height:40px;display:grid;place-items:center;border-radius:50%;background:var(--primary-light);color:var(--primary)}
+.trust__ic svg{width:19px;height:19px}
+.trust__item b{display:block;font-size:13.5px;color:var(--dark);line-height:1.3}
+.trust__item small{font-size:12px;color:var(--body)}
+
+/* ============ CATEGORY GRID ============ */
+.cats{display:grid;gap:18px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:768px){.cats{grid-template-columns:repeat(3,1fr);gap:22px}}
+.cat{position:relative;aspect-ratio:3/4;border-radius:var(--r-lg);overflow:hidden;display:flex;align-items:flex-end;isolation:isolate}
+.cat__bg{position:absolute;inset:0;transition:transform var(--t-slow)}
+.cat:hover .cat__bg{transform:scale(1.045)}
+.cat__bg::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(20,8,30,.78) 0%,rgba(20,8,30,.25) 45%,transparent 70%);transition:background var(--t-base)}
+.cat:hover .cat__bg::after{background:linear-gradient(to top,rgba(20,8,30,.88) 0%,rgba(20,8,30,.35) 45%,rgba(20,8,30,.08) 70%)}
+.cat__mark{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--serif);font-size:clamp(64px,9vw,110px);font-weight:600;color:rgba(255,255,255,.14);user-select:none}
+.cat__body{position:relative;z-index:2;padding:22px;width:100%}
+.cat__body h3{font-family:var(--serif);font-weight:600;font-size:clamp(19px,2.3vw,26px);color:#fff;margin-bottom:4px}
+.cat__body span{font-size:12.5px;color:rgba(255,255,255,.75);display:inline-flex;align-items:center;gap:6px}
+.cat__body span::after{content:"→";transition:transform var(--t-fast)}
+.cat:hover .cat__body span::after{transform:translateX(4px)}
+.g1{background:linear-gradient(160deg,#3b1554,#6B2D8B 60%,#8d4bb3)}
+.g2{background:linear-gradient(160deg,#52123a,#8b2d6b 60%,#b34b92)}
+.g3{background:linear-gradient(160deg,#1c1145,#4A1E61 55%,#6B2D8B)}
+.g4{background:linear-gradient(160deg,#5c4310,#A07830 55%,#D4A853)}
+.g5{background:linear-gradient(160deg,#241a3e,#3d2b66 60%,#5a4194)}
+.g6{background:linear-gradient(160deg,#451d2e,#7a2d4f 60%,#a8486f)}
+
+/* ============ PRODUCT TABS ============ */
+.tabs{display:flex;justify-content:center;gap:10px;margin-bottom:36px;flex-wrap:wrap}
+.tab{height:42px;padding:0 22px;border-radius:var(--r-pill);background:var(--primary-light);color:var(--primary);font-weight:600;font-size:13.5px;transition:all var(--t-fast)}
+.tab:hover{background:#ded2f0}
+.tab[aria-selected="true"]{background:var(--primary);color:#fff;box-shadow:var(--sh-sm)}
+.grid-p{display:grid;gap:20px 16px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:768px){.grid-p{grid-template-columns:repeat(3,1fr);gap:28px 22px}}
+@media(min-width:1024px){.grid-p{grid-template-columns:repeat(4,1fr)}}
+.panel{display:none}
+.panel.active{display:block}
+.view-all{text-align:center;margin-top:40px}
+.view-all a{font-weight:600;color:var(--primary);font-size:15px;display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border:1.5px solid var(--primary);border-radius:var(--r-md);transition:all var(--t-fast)}
+.view-all a:hover{background:var(--primary);color:#fff}
+
+/* ============ PRODUCT CARD ============ */
+.pc{position:relative;display:flex;flex-direction:column}
+.pc__media{position:relative;aspect-ratio:3/4;border-radius:var(--r-md);overflow:hidden;margin-bottom:12px;isolation:isolate}
+.pc__ph{position:absolute;inset:0;display:grid;place-items:center;transition:transform var(--t-slow)}
+.pc:hover .pc__ph{transform:scale(1.04)}
+.pc__ph i{font-family:var(--serif);font-style:normal;font-size:54px;font-weight:600;color:rgba(255,255,255,.22)}
+.pc__badge{position:absolute;top:10px;left:10px;z-index:3;font-size:10px;font-weight:700;letter-spacing:.08em;padding:5px 9px;border-radius:var(--r-sm);color:#fff}
+.b-new{background:var(--success)}.b-sale{background:var(--error)}.b-best{background:var(--accent);color:var(--dark)}.b-out{background:#9a96a8}
+.pc__heart{position:absolute;top:8px;right:8px;z-index:3;width:34px;height:34px;display:grid;place-items:center;border-radius:50%;background:rgba(255,255,255,.92);color:var(--dark);box-shadow:var(--sh-sm);transition:transform var(--t-fast),color var(--t-fast)}
+.pc__heart:hover{transform:scale(1.1)}
+.pc__heart.on{color:var(--error)}
+.pc__heart svg{width:16px;height:16px}
+.pc__quick{position:absolute;left:10px;right:10px;bottom:10px;z-index:3;height:42px;border-radius:var(--r-md);background:rgba(255,255,255,.96);color:var(--dark);font-weight:600;font-size:13.5px;box-shadow:var(--sh-md);opacity:0;transform:translateY(8px);transition:all var(--t-base)}
+.pc:hover .pc__quick{opacity:1;transform:translateY(0)}
+.pc__quick:hover{background:var(--primary);color:#fff}
+@media(hover:none){.pc__quick{opacity:1;transform:none}}
+.pc__tag{font-size:11.5px;color:var(--body);letter-spacing:.02em;margin-bottom:3px}
+.pc__title{font-weight:600;font-size:14.5px;color:var(--dark);line-height:1.35;margin-bottom:7px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pc__price{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:9px}
+.pc__price .now{font-weight:700;font-size:16.5px;color:var(--dark);font-variant-numeric:tabular-nums}
+.pc__price .was{font-size:13px;color:var(--body);text-decoration:line-through;opacity:.65}
+.pc__price .off{font-size:10.5px;font-weight:700;color:var(--error);background:#fdeceb;padding:3px 7px;border-radius:var(--r-sm)}
+.pc__sw{display:flex;align-items:center;gap:6px}
+.sw{width:17px;height:17px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px var(--divider);transition:transform var(--t-fast)}
+.sw:hover{transform:scale(1.18)}
+.pc__sw small{font-size:11px;color:var(--body)}
+
+/* ============ BUDGET ============ */
+.budget{background:var(--surface)}
+.bud-grid{display:grid;gap:16px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:900px){.bud-grid{grid-template-columns:repeat(4,1fr);gap:22px}}
+.bud{background:linear-gradient(145deg,#fff,var(--primary-light));border:1px solid var(--divider);border-radius:var(--r-xl);padding:30px 24px;text-align:center;transition:transform var(--t-base),box-shadow var(--t-base);display:block}
+.bud:hover{transform:translateY(-5px);box-shadow:var(--sh-md)}
+.bud em{display:block;font-style:normal;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--body);margin-bottom:8px}
+.bud b{display:block;font-family:var(--serif);font-size:clamp(24px,2.6vw,30px);font-weight:700;color:var(--primary);line-height:1.1;margin-bottom:10px}
+.bud span{font-size:12.5px;color:var(--accent-dark);font-weight:600}
+
+/* ============ OCCASION ============ */
+.occ-grid{display:grid;gap:16px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:900px){.occ-grid{grid-template-columns:repeat(4,1fr);gap:20px}}
+.occ{position:relative;aspect-ratio:1/1;border-radius:var(--r-lg);overflow:hidden;display:grid;place-items:center;text-align:center;isolation:isolate}
+@media(min-width:900px){.occ{aspect-ratio:4/5}}
+.occ__bg{position:absolute;inset:0;transition:transform var(--t-slow)}
+.occ:hover .occ__bg{transform:scale(1.05)}
+.occ__bg::after{content:"";position:absolute;inset:0;background:rgba(18,8,28,.38);transition:background var(--t-base)}
+.occ:hover .occ__bg::after{background:rgba(18,8,28,.25)}
+.occ__body{position:relative;z-index:2;padding:16px}
+.occ__body .ic{font-size:30px;display:block;margin-bottom:10px}
+.occ__body h3{font-family:var(--serif);font-size:clamp(20px,2.4vw,27px);font-weight:600;color:#fff;margin-bottom:6px}
+.occ__body span{font-size:12.5px;font-weight:600;color:var(--accent);letter-spacing:.06em;text-transform:uppercase}
+
+/* ============ VIDEO ============ */
+.vid{background:var(--dark);padding:0}
+.vid__grid{display:grid;grid-template-columns:1fr}
+@media(min-width:900px){.vid__grid{grid-template-columns:5fr 7fr;min-height:520px}}
+.vid__copy{display:flex;flex-direction:column;justify-content:center;padding:clamp(40px,6vw,80px)}
+.vid__copy .t-eyebrow{color:var(--accent);margin-bottom:14px}
+.vid__copy h2{font-family:var(--serif);font-size:clamp(30px,3.6vw,44px);font-weight:600;color:#fff;line-height:1.15;margin-bottom:18px}
+.vid__copy p{color:rgba(255,255,255,.75);font-size:16px;max-width:400px;margin-bottom:30px}
+.vid__media{position:relative;min-height:320px;background:#0e0a18}
+.vid__media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+
+/* ============ SOCIAL PROOF ============ */
+.proof{background:var(--surface)}
+.proof__stats{display:flex;justify-content:center;align-items:baseline;gap:10px;margin-bottom:8px}
+.proof__stats b{font-family:var(--serif);font-size:clamp(40px,5vw,56px);font-weight:700;color:var(--primary)}
+.stars{color:var(--accent);font-size:20px;letter-spacing:3px}
+.reviews{display:grid;gap:20px;grid-template-columns:1fr;margin-top:44px}
+@media(min-width:900px){.reviews{grid-template-columns:repeat(3,1fr);gap:24px}}
+.rev{background:#fff;border-radius:var(--r-lg);padding:28px;box-shadow:var(--sh-sm);border-top:3px solid var(--accent);display:flex;flex-direction:column;gap:14px}
+.rev__stars{color:var(--accent);font-size:15px;letter-spacing:2px}
+.rev p{font-size:14.5px;line-height:1.7;color:var(--dark)}
+.rev__who{display:flex;align-items:center;gap:12px;margin-top:auto}
+.rev__av{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:#fff;font-size:15px}
+.rev__who b{display:block;font-size:13.5px;color:var(--dark)}
+.rev__who small{font-size:11.5px;color:var(--success);font-weight:600}
+
+/* ============ INSTAGRAM REELS ============ */
+.ig-reels{background:var(--surface);padding-block:var(--section-gap)}
+.ig-reels .sec-head{margin-bottom:clamp(24px,3vw,36px)}
+.reels-row{display:flex;gap:16px;overflow-x:auto;padding:4px 0 16px;scrollbar-width:thin;scrollbar-color:var(--divider) transparent;-webkit-overflow-scrolling:touch}
+.reels-row::-webkit-scrollbar{height:4px}
+.reels-row::-webkit-scrollbar-thumb{background:var(--divider);border-radius:var(--r-pill)}
+.reel-card{position:relative;flex:none;width:180px;aspect-ratio:9/16;border-radius:var(--r-lg);overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;cursor:pointer;transition:transform var(--t-base),box-shadow var(--t-base);isolation:isolate;text-decoration:none}
+@media(max-width:600px){.reel-card{width:140px}}
+.reel-card:hover{transform:scale(1.04);box-shadow:var(--sh-lg)}
+.reel-card__veil{position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,.2) 50%,transparent 80%)}
+.reel-card__play{position:absolute;inset:0;display:grid;place-items:center;z-index:2}
+.reel-card__play-btn{width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.9);display:grid;place-items:center;transition:transform var(--t-fast),background var(--t-fast)}
+.reel-card:hover .reel-card__play-btn{background:#fff;transform:scale(1.1)}
+.reel-card__play-btn svg{width:20px;height:20px;fill:var(--dark);margin-left:3px}
+.reel-card__info{position:relative;z-index:3;padding:12px;color:#fff}
+.reel-card__views{font-size:11px;font-weight:700;letter-spacing:.04em;margin-bottom:4px;opacity:.85}
+.reel-card__handle{font-size:11px;font-weight:600;opacity:.9}
+.reel-card__watch{position:absolute;inset:0;display:grid;place-items:center;z-index:4;background:rgba(107,45,139,.7);opacity:0;transition:opacity var(--t-base)}
+.reel-card:hover .reel-card__watch{opacity:1}
+.reel-card__watch span{color:#fff;font-weight:700;font-size:13px;padding:8px 16px;border:1.5px solid #fff;border-radius:var(--r-pill)}
+.ig-reels__cta{text-align:center;margin-top:28px}
+
+/* ============ STYLE MATCH STUDIO ============ */
+.sms{background:#fff;padding-block:var(--section-gap)}
+.sms__card{max-width:760px;margin:0 auto;border:2px solid var(--primary-light);border-radius:var(--r-xl);padding:clamp(28px,4vw,48px);box-shadow:var(--sh-md)}
+.sms__prog{background:var(--primary-light);border-radius:var(--r-pill);height:6px;margin-bottom:28px;overflow:hidden}
+.sms__prog-fill{height:100%;background:var(--primary);border-radius:var(--r-pill);transition:width .4s ease}
+.sms__step-label{font-size:12px;font-weight:700;color:var(--primary);letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.sms__step-q{font-family:var(--serif);font-size:clamp(20px,2.4vw,26px);font-weight:600;color:var(--dark);margin-bottom:24px}
+.sms__options{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:28px}
+.sms-opt{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border:2px solid var(--divider);border-radius:var(--r-pill);font-weight:600;font-size:14px;color:var(--body);cursor:pointer;transition:all var(--t-fast);background:#fff}
+.sms-opt:hover{border-color:var(--primary);color:var(--primary)}
+.sms-opt.sel{border-color:var(--primary);background:var(--primary-light);color:var(--primary)}
+.sms-opt__dot{width:18px;height:18px;border-radius:50%;border:2px solid rgba(0,0,0,.15);flex:none}
+.sms-opt__ic{font-size:18px}
+.sms__nav{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.sms__results{display:none}
+.sms__results.show{display:block}
+.sms__loader{text-align:center;padding:32px;font-size:15px;color:var(--body)}
+.sms__loader-spin{display:inline-block;width:36px;height:36px;border:3px solid var(--primary-light);border-top-color:var(--primary);border-radius:50%;animation:spin .8s linear infinite;margin-bottom:12px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.sms__result-grid{display:grid;gap:16px;grid-template-columns:repeat(2,1fr)}
+@media(min-width:600px){.sms__result-grid{grid-template-columns:repeat(4,1fr)}}
+.sms__again{text-align:center;margin-top:20px}
+
+/* ============ NEWSLETTER ============ */
+.news{background:linear-gradient(120deg,var(--primary-dark),var(--primary))}
+.news__grid{display:grid;gap:28px;grid-template-columns:1fr;align-items:center}
+@media(min-width:900px){.news__grid{grid-template-columns:1fr 1fr;gap:60px}}
+.news h2{font-family:var(--serif);font-size:clamp(28px,3.4vw,40px);font-weight:600;color:#fff;line-height:1.15;margin-bottom:12px}
+.news p{color:rgba(255,255,255,.8);font-size:15.5px}
+.news__form{display:flex;gap:10px;flex-wrap:wrap}
+.news__form input{flex:1 1 240px;height:54px;padding:0 20px;border:none;border-radius:var(--r-md);font:inherit;font-size:15px;color:var(--dark)}
+.news__form input::placeholder{color:#9a96a8}
+.news__ok{display:none;color:#fff;font-weight:600;font-size:16px;padding:14px 0}
+
+/* ============ FOOTER ============ */
+footer.site{background:var(--dark);color:rgba(255,255,255,.72);font-size:13.5px}
+.foot__grid{display:grid;gap:36px;grid-template-columns:1fr;padding-block:clamp(48px,6vw,72px)}
+@media(min-width:768px){.foot__grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1024px){.foot__grid{grid-template-columns:1.4fr 1fr 1fr 1.2fr}}
+.foot__logo{font-family:var(--serif);font-weight:700;font-size:28px;letter-spacing:.14em;color:#fff}
+.foot__logo small{display:block;font-family:var(--sans);font-weight:600;font-size:8px;letter-spacing:.32em;color:rgba(255,255,255,.5);margin-top:2px}
+.foot__brand p{margin:16px 0 20px;line-height:1.7;max-width:280px}
+.socials{display:flex;gap:10px}
+.socials a{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;border:1px solid rgba(255,255,255,.2);transition:all var(--t-fast)}
+.socials a:hover{background:var(--primary);border-color:var(--primary);color:#fff}
+.socials svg{width:16px;height:16px}
+footer h4{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#fff;margin-bottom:18px}
+footer li{margin-bottom:11px}
+footer li a{transition:color var(--t-fast)}
+footer li a:hover{color:var(--accent)}
+.foot__contact li{display:flex;gap:10px;align-items:flex-start;line-height:1.6}
+.foot__contact svg{flex:none;width:15px;height:15px;margin-top:3px;color:var(--accent)}
+.foot__trust{border-top:1px solid rgba(255,255,255,.1);padding-block:18px;text-align:center;font-size:12px;color:rgba(255,255,255,.55);letter-spacing:.04em}
+.foot__legal{border-top:1px solid rgba(255,255,255,.1);padding-block:22px;display:flex;flex-wrap:wrap;gap:14px 28px;align-items:center;justify-content:space-between;font-size:12px}
+.foot__legal nav{display:flex;flex-wrap:wrap;gap:18px}
+.foot__legal a:hover{color:var(--accent)}
+
+/* ============ CART DRAWER ============ */
+.veil{position:fixed;inset:0;z-index:1190;background:rgba(26,26,46,.5);opacity:0;visibility:hidden;transition:opacity var(--t-base),visibility var(--t-base)}
+.veil.show{opacity:1;visibility:visible}
+.drawer{position:fixed;top:0;right:0;bottom:0;z-index:1200;width:min(420px,100vw);background:#fff;display:flex;flex-direction:column;transform:translateX(100%);transition:transform 300ms cubic-bezier(.4,0,.2,1);box-shadow:var(--sh-lg)}
+.drawer.open{transform:translateX(0)}
+.drawer__head{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--divider)}
+.drawer__head b{font-size:17px;color:var(--dark)}
+.drawer__body{flex:1;overflow-y:auto;padding:20px 24px}
+.drawer__empty{text-align:center;padding:48px 0;color:var(--body)}
+.drawer__empty span{font-size:44px;display:block;margin-bottom:14px}
+.ship-meter{background:var(--surface);border-radius:var(--r-md);padding:14px 16px;margin-bottom:18px;font-size:13px}
+.ship-meter .track{height:6px;background:var(--divider);border-radius:var(--r-pill);margin-top:10px;overflow:hidden}
+.ship-meter .fill{height:100%;width:0;background:linear-gradient(90deg,var(--primary),var(--accent));border-radius:var(--r-pill);transition:width var(--t-slow)}
+.line{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--divider)}
+.line__ph{flex:none;width:72px;height:90px;border-radius:var(--r-sm);display:grid;place-items:center}
+.line__ph i{font-family:var(--serif);font-style:normal;color:rgba(255,255,255,.3);font-size:24px}
+.line b{display:block;font-size:13.5px;color:var(--dark);margin-bottom:3px}
+.line small{font-size:12px;color:var(--body)}
+.line__qty{display:inline-flex;align-items:center;gap:12px;margin-top:8px;border:1px solid var(--divider);border-radius:var(--r-sm);padding:3px 10px}
+.line__qty button{font-size:15px;width:18px}
+.line__price{margin-left:auto;font-weight:700;color:var(--dark);font-size:14px;white-space:nowrap}
+.drawer__foot{border-top:1px solid var(--divider);padding:20px 24px}
+.drawer__sub{display:flex;justify-content:space-between;font-size:16px;color:var(--dark);margin-bottom:14px}
+.drawer__foot .btn{width:100%}
+.drawer__note{text-align:center;font-size:11.5px;color:var(--body);margin-top:12px}
+
+/* ============ TOAST ============ */
+.toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%) translateY(80px);z-index:1300;background:var(--dark);color:#fff;font-size:13.5px;font-weight:500;padding:13px 22px;border-radius:var(--r-pill);box-shadow:var(--sh-lg);opacity:0;transition:all var(--t-base)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ============ ANIM ============ */
+.aos{opacity:0;transform:translateY(26px);transition:opacity .6s ease,transform .6s ease}
+.aos.in{opacity:1;transform:none}
+.stagger>*{opacity:0;transform:translateY(20px);transition:opacity .55s ease,transform .55s ease}
+.stagger.in>*{opacity:1;transform:none}
+.stagger.in>*:nth-child(1){transition-delay:0ms}.stagger.in>*:nth-child(2){transition-delay:70ms}.stagger.in>*:nth-child(3){transition-delay:140ms}.stagger.in>*:nth-child(4){transition-delay:210ms}.stagger.in>*:nth-child(5){transition-delay:280ms}.stagger.in>*:nth-child(6){transition-delay:350ms}.stagger.in>*:nth-child(7){transition-delay:420ms}.stagger.in>*:nth-child(8){transition-delay:490ms}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .aos,.stagger>*{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+.skip{position:absolute;left:-9999px;top:12px;z-index:2000;background:var(--primary);color:#fff;padding:12px 20px;border-radius:var(--r-md);font-weight:600}
+.skip:focus{left:12px}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+
+<!-- ANNOUNCEMENT -->
+<div class="bar" id="bar">
+  <a href="#shop" class="bar__track" aria-label="Current offers">
+    <span class="bar__msg">🎉 New Arrivals Just Dropped — Shop Fresh Picks</span>
+    <span class="bar__msg">Free Shipping on Orders Above ₹999</span>
+    <span class="bar__msg">10% OFF Your First Order — Code WELCOME10</span>
+  </a>
+  <button class="bar__close" id="barClose" aria-label="Dismiss announcement">×</button>
+</div>
+
+<!-- UTILITY -->
+<div class="util">
+  <div class="wrap">
+    <a href="tel:+919594283890">📞 +91 95942 83890</a>
+    <span class="util__mid">Free Shipping on Orders Above ₹999</span>
+    <div style="display:flex;gap:18px">
+      <a href="#">Track Order</a>
+      <a href="#">Account</a>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="site" id="header">
+  <div class="wrap nav">
+    <button class="burger icon-btn" id="burger" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+    <a class="logo" href="index.html">VAMAS<small>The Designer Blouses</small></a>
+    <nav aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li class="has-mega">
+          <a href="collection.html">Shop Blouses ▾</a>
+          <div class="mega" role="menu">
+            <div>
+              <h4>Shop by Fabric</h4>
+              <a href="collection.html">Silk</a><a href="collection.html">Brocade</a><a href="collection.html">Cotton</a><a href="collection.html">Tissue</a>
+            </div>
+            <div>
+              <h4>Shop by Style</h4>
+              <a href="collection.html">Corset</a><a href="collection.html">Elbow Sleeve</a><a href="collection.html">Sleeveless</a><a href="collection.html">Dual-Neck</a>
+            </div>
+            <div>
+              <h4>Curated</h4>
+              <a href="collection.html">Boutique Collection</a><a href="collection.html">Plain Edits</a><a href="collection.html">V-Neck Iconic</a><a href="collection.html">Fresh Arrivals</a>
+            </div>
+          </div>
+        </li>
+        <li class="sale"><a href="collection.html">Sale</a></li>
+        <li><a href="collection.html">Best Sellers</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav__icons">
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Wishlist">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3.4 1-4.5 2.5C10.9 4 9.3 3 7.5 3A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/></svg>
+        <span class="badge-ct" id="wishCt" hidden>0</span>
+      </button>
+      <button class="icon-btn" id="cartBtn" aria-label="Cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M6 7h12l1.5 13.5a1 1 0 0 1-1 1.1H5.5a1 1 0 0 1-1-1.1L6 7Z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg>
+        <span class="badge-ct" id="cartCt" hidden>0</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE NAV -->
+<div class="m-nav" id="mNav" aria-hidden="true">
+  <div class="m-nav__top">
+    <span class="logo" style="font-size:24px">VAMAS</span>
+    <button class="icon-btn" id="mClose" aria-label="Close menu" style="font-size:24px">×</button>
+  </div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="collection.html">Shop Blouses</a></li>
+    <li><a href="collection.html" style="color:var(--error)">Sale</a></li>
+    <li><a href="collection.html">Best Sellers</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="meta">
+    📞 +91 95942 83890<br>
+    ✉️ support@vamas.in<br>
+    Mon–Sat · 10am–7pm IST
+  </div>
+</div>
+
+<main id="main">
+
+<!-- HERO CAROUSEL -->
+<div class="hero-carousel" id="heroCarousel" aria-label="Hero banner">
+
+  <!-- SLIDE 1 — New Arrivals (purple) -->
+  <div class="hero-slide active" style="background:linear-gradient(120deg,#240e34 0%,#6B2D8B 60%)">
+    <picture>
+      <source media="(max-width:767px)" srcset="https://www.vamas.in/cdn/shop/files/750x1100.jpg">
+      <img class="hero-slide__img" src="https://www.vamas.in/cdn/shop/files/1440x460.jpg" alt="New arrivals collection" fetchpriority="high" loading="eager">
+    </picture>
+    <div class="hero-slide__veil" style="background:linear-gradient(100deg,rgba(36,14,52,.82) 0%,rgba(36,14,52,.55) 42%,rgba(36,14,52,.15) 75%,transparent 100%)"></div>
+    <div class="wrap">
+      <div class="hero__box">
+        <span class="hero__eyebrow">New Arrivals — Summer 2025</span>
+        <h1>Wear the Story of <em>Every Saree</em></h1>
+        <p>Designer blouses crafted for the modern Indian woman — 500+ styles, premium fabrics, perfect fit.</p>
+        <div class="hero__ctas">
+          <a class="btn btn-accent" href="collection.html">Shop New Arrivals</a>
+          <a class="btn btn-ghost" href="collection.html">Explore All Blouses</a>
+        </div>
+        <div class="hero__trust">
+          <span><b>★ 4.8/5</b> Rating</span>
+          <span><b>10,000+</b> Happy Customers</span>
+          <span>Mumbai's <b>#1</b> Blouse Brand</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 2 — Wedding Collection (maroon/gold) -->
+  <div class="hero-slide" style="background:linear-gradient(120deg,#2a0a1a 0%,#8b2d5b 60%)">
+    <picture>
+      <source media="(max-width:767px)" srcset="https://www.vamas.in/cdn/shop/files/750x1100.jpg">
+      <img class="hero-slide__img" src="https://www.vamas.in/cdn/shop/files/1440x460.jpg" alt="Wedding collection" loading="lazy">
+    </picture>
+    <div class="hero-slide__veil" style="background:linear-gradient(100deg,rgba(42,10,26,.88) 0%,rgba(139,45,91,.5) 42%,rgba(42,10,26,.15) 75%,transparent 100%)"></div>
+    <div class="wrap">
+      <div class="hero__box">
+        <span class="hero__eyebrow" style="color:#e8c87a;border-color:rgba(232,200,122,.45);background:rgba(232,200,122,.1)">Bridal &amp; Wedding Edit</span>
+        <h1 style="font-size:clamp(38px,5.5vw,64px)">Blouses That Make You the <em style="color:#e8c87a">Star of Every Ceremony</em></h1>
+        <p>Exquisite bridal blouses in silk, brocade &amp; tissue — designed for your most cherished moments.</p>
+        <div class="hero__ctas">
+          <a class="btn btn-accent" href="collection.html">Shop Wedding Collection</a>
+          <a class="btn btn-ghost" href="collection.html">View Bridal Picks</a>
+        </div>
+        <div class="hero__trust">
+          <span><b>★ 4.8/5</b> Rating</span>
+          <span><b>10,000+</b> Happy Customers</span>
+          <span>Mumbai's <b>#1</b> Blouse Brand</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3 — Sale (navy/orange) -->
+  <div class="hero-slide" style="background:linear-gradient(120deg,#0d1a2e 0%,#1d3a6b 60%)">
+    <picture>
+      <source media="(max-width:767px)" srcset="https://www.vamas.in/cdn/shop/files/750x1100.jpg">
+      <img class="hero-slide__img" src="https://www.vamas.in/cdn/shop/files/1440x460.jpg" alt="Sale collection" loading="lazy">
+    </picture>
+    <div class="hero-slide__veil" style="background:linear-gradient(100deg,rgba(13,26,46,.9) 0%,rgba(29,58,107,.55) 42%,rgba(13,26,46,.18) 75%,transparent 100%)"></div>
+    <div class="wrap">
+      <div class="hero__box">
+        <span class="hero__eyebrow" style="color:#E07030;border-color:rgba(224,112,48,.45);background:rgba(224,112,48,.1)">Limited Time Offer</span>
+        <h1>Premium Blouses Up to <em style="color:#E07030">40% Off</em></h1>
+        <p>Don't miss our biggest sale — handpicked styles at prices that won't last long.</p>
+        <div class="hero__ctas">
+          <a class="btn btn-orange" href="collection.html">Shop the Sale</a>
+          <a class="btn btn-ghost" href="collection.html">View All Styles</a>
+        </div>
+        <div class="hero__trust">
+          <span><b>★ 4.8/5</b> Rating</span>
+          <span><b>10,000+</b> Happy Customers</span>
+          <span>Mumbai's <b>#1</b> Blouse Brand</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTROLS -->
+  <button class="carousel-prev" id="cPrev" aria-label="Previous slide">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg>
+  </button>
+  <button class="carousel-next" id="cNext" aria-label="Next slide">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m9 18 6-6-6-6"/></svg>
+  </button>
+  <div class="carousel-dots" id="cDots">
+    <button class="carousel-dot active" aria-label="Slide 1"></button>
+    <button class="carousel-dot" aria-label="Slide 2"></button>
+    <button class="carousel-dot" aria-label="Slide 3"></button>
+  </div>
+  <div class="chev" id="chev" aria-hidden="true">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+  </div>
+</div>
+
+<!-- TRUST BAR -->
+<div class="trust" role="list">
+  <div class="trust__row">
+    <div class="trust__item" role="listitem">
+      <span class="trust__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 7h11v10H3zM14 10h4l3 3v4h-7z"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg></span>
+      <div><b>Free Shipping</b><small>On orders above ₹999</small></div>
+    </div>
+    <div class="trust__item" role="listitem">
+      <span class="trust__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
+      <div><b>Secure Payments</b><small>100% encrypted checkout</small></div>
+    </div>
+    <div class="trust__item" role="listitem">
+      <span class="trust__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 21 21 3M3 8V3h5M21 16v5h-5"/></svg></span>
+      <div><b>Adjustable Fit</b><small>1.5" allowance + 3 stitch lines</small></div>
+    </div>
+    <div class="trust__item" role="listitem">
+      <span class="trust__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="m12 3 2.5 5.3 5.5.8-4 4 1 5.9-5-2.8-5 2.8 1-5.9-4-4 5.5-.8Z"/></svg></span>
+      <div><b>Premium Fabrics</b><small>Silk, Brocade, Cotton, Tissue</small></div>
+    </div>
+    <div class="trust__item" role="listitem">
+      <span class="trust__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"/></svg></span>
+      <div><b>7-Day Returns</b><small>Hassle-free exchange</small></div>
+    </div>
+    <div class="trust__item" role="listitem">
+      <span class="trust__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M21 12a8 8 0 1 0-3.1 6.3L21 19z"/></svg></span>
+      <div><b>Live Support</b><small>Mon–Sat, 10am–7pm IST</small></div>
+    </div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<section id="shop">
+  <div class="wrap">
+    <div class="sec-head aos">
+      <span class="t-eyebrow">Explore Collections</span>
+      <h2 class="t-h2">From Simple to Showstopping</h2>
+      <p>Six signature edits — find the silhouette that tells your story.</p>
+    </div>
+    <div class="cats stagger">
+      <a class="cat" href="collection.html"><span class="cat__bg g1"></span><span class="cat__mark">C</span><span class="cat__body"><h3>Corset Blouses</h3><span>Shop now</span></span></a>
+      <a class="cat" href="collection.html"><span class="cat__bg g2"></span><span class="cat__mark">B</span><span class="cat__body"><h3>Brocade Blouses</h3><span>Shop now</span></span></a>
+      <a class="cat" href="collection.html"><span class="cat__bg g3"></span><span class="cat__mark">S</span><span class="cat__body"><h3>Silk Blouses</h3><span>Shop now</span></span></a>
+      <a class="cat" href="collection.html"><span class="cat__bg g4"></span><span class="cat__mark">B</span><span class="cat__body"><h3>The Boutique Collection</h3><span>Shop now</span></span></a>
+      <a class="cat" href="collection.html"><span class="cat__bg g5"></span><span class="cat__mark">P</span><span class="cat__body"><h3>Plain Edits</h3><span>Shop now</span></span></a>
+      <a class="cat" href="collection.html"><span class="cat__bg g6"></span><span class="cat__mark">V</span><span class="cat__body"><h3>V-Neck Iconic</h3><span>Shop now</span></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT TABS -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head aos">
+      <span class="t-eyebrow">Our Edit</span>
+      <h2 class="t-h2">Blouses Worth Obsessing Over</h2>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Product collections">
+      <button class="tab" role="tab" aria-selected="true" data-panel="p-fresh">Fresh Arrivals</button>
+      <button class="tab" role="tab" aria-selected="false" data-panel="p-best">Best Sellers</button>
+      <button class="tab" role="tab" aria-selected="false" data-panel="p-value">The Value Edits</button>
+    </div>
+    <div class="panel active" id="p-fresh" role="tabpanel">
+      <div class="grid-p stagger" id="freshGrid"></div>
+      <div class="view-all"><a href="collection.html">View All Fresh Arrivals →</a></div>
+    </div>
+    <div class="panel" id="p-best" role="tabpanel">
+      <div class="grid-p" id="bestGrid"></div>
+      <div class="view-all"><a href="collection.html">View All Best Sellers →</a></div>
+    </div>
+    <div class="panel" id="p-value" role="tabpanel">
+      <div class="grid-p" id="valueGrid"></div>
+      <div class="view-all"><a href="collection.html">View All Value Edits →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- BUDGET -->
+<section class="budget">
+  <div class="wrap">
+    <div class="sec-head aos">
+      <span class="t-eyebrow">Shop by Budget</span>
+      <h2 class="t-h2">Wallet-Friendly Wow</h2>
+    </div>
+    <div class="bud-grid stagger">
+      <a class="bud" href="collection.html"><em>Starting ₹599</em><b>Under ₹1,000</b><span>Shop the range →</span></a>
+      <a class="bud" href="collection.html"><em>Most Popular</em><b>Under ₹2,000</b><span>Shop the range →</span></a>
+      <a class="bud" href="collection.html"><em>Designer Picks</em><b>Under ₹3,000</b><span>Shop the range →</span></a>
+      <a class="bud" href="collection.html"><em>The Finest</em><b>Premium Picks</b><span>Shop the range →</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- OCCASION -->
+<section>
+  <div class="wrap">
+    <div class="sec-head aos">
+      <span class="t-eyebrow">Shop by Occasion</span>
+      <h2 class="t-h2">Temple to Trendy</h2>
+    </div>
+    <div class="occ-grid stagger">
+      <a class="occ" href="collection.html"><span class="occ__bg g3"></span><span class="occ__body"><span class="ic">💍</span><h3>Wedding Wear</h3><span>Shop Now →</span></span></a>
+      <a class="occ" href="collection.html"><span class="occ__bg g2"></span><span class="occ__body"><span class="ic">🪔</span><h3>Festive Wear</h3><span>Shop Now →</span></span></a>
+      <a class="occ" href="collection.html"><span class="occ__bg g5"></span><span class="occ__body"><span class="ic">🌿</span><h3>Casual Wear</h3><span>Shop Now →</span></span></a>
+      <a class="occ" href="collection.html"><span class="occ__bg g6"></span><span class="occ__body"><span class="ic">🥂</span><h3>Cocktail Wear</h3><span>Shop Now →</span></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="vid" id="about">
+  <div class="vid__grid">
+    <div class="vid__copy aos">
+      <span class="t-eyebrow">The VAMAS Promise</span>
+      <h2>Crafted with Intention</h2>
+      <p>Every VAMAS blouse is designed, padded, and finished in Mumbai — for women who want perfect fit with zero compromise.</p>
+      <a class="btn btn-accent" href="#" style="align-self:flex-start">Our Story →</a>
+    </div>
+    <div class="vid__media">
+      <video poster="https://www.vamas.in/cdn/shop/files/preview_images/154930b4177246c09c0bac473b5bd9dc.thumbnail.0000000000.jpg" controls muted playsinline preload="none">
+        <source src="https://www.vamas.in/cdn/shop/videos/c/vp/154930b4177246c09c0bac473b5bd9dc/154930b4177246c09c0bac473b5bd9dc.m3u8" type="application/x-mpegURL">
+        Your browser does not support video playback.
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL PROOF -->
+<section class="proof">
+  <div class="wrap">
+    <div class="sec-head aos" style="max-width:640px">
+      <span class="t-eyebrow">Loved Across India</span>
+      <div class="proof__stats"><b><span class="count" data-to="10000">0</span>+</b></div>
+      <h2 class="t-h2" style="font-size:clamp(22px,2.6vw,30px)">Women Love VAMAS</h2>
+      <p><span class="stars">★★★★★</span>&nbsp; 4.8 average across verified reviews</p>
+    </div>
+    <div class="reviews stagger">
+      <article class="rev">
+        <span class="rev__stars" aria-label="5 stars">★★★★★</span>
+        <p>"Absolutely love my VAMAS corset blouse! The fabric quality is exceptional and the fit is perfect. Worth every rupee."</p>
+        <div class="rev__who">
+          <span class="rev__av" style="background:#6B2D8B">P</span>
+          <div><b>Priya M. · Pune</b><small>✓ Verified Purchase</small></div>
+        </div>
+      </article>
+      <article class="rev">
+        <span class="rev__stars" aria-label="5 stars">★★★★★</span>
+        <p>"Ordered 3 blouses and all arrived beautifully packed. The brocade silk is stunning — got so many compliments at the wedding!"</p>
+        <div class="rev__who">
+          <span class="rev__av" style="background:#A07830">S</span>
+          <div><b>Sneha R. · Bangalore</b><small>✓ Verified Purchase</small></div>
+        </div>
+      </article>
+      <article class="rev">
+        <span class="rev__stars" aria-label="5 stars">★★★★★</span>
+        <p>"Best designer blouse brand in Mumbai! Fast delivery, and the adjustable stitching saved me before the function."</p>
+        <div class="rev__who">
+          <span class="rev__av" style="background:#4A1E61">K</span>
+          <div><b>Kavya T. · Mumbai</b><small>✓ Verified Purchase</small></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- INSTAGRAM REELS SHOWCASE -->
+<section class="ig-reels">
+  <div class="wrap">
+    <div class="sec-head aos">
+      <span class="t-eyebrow">@vamas_thedesignerblouses</span>
+      <h2 class="t-h2">Follow Us on Instagram</h2>
+      <p>Real women, real VAMAS — see how they style it</p>
+    </div>
+    <div class="reels-row stagger">
+      <a class="reel-card g1" href="https://www.instagram.com/vamas_thedesignerblouses/" target="_blank" rel="noopener" aria-label="Instagram reel">
+        <div class="reel-card__veil"></div>
+        <div class="reel-card__play"><div class="reel-card__play-btn"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div></div>
+        <div class="reel-card__info"><div class="reel-card__views">2.1k views</div><div class="reel-card__handle">@vamas_thedesignerblouses</div></div>
+        <div class="reel-card__watch"><span>Watch Reel</span></div>
+      </a>
+      <a class="reel-card g2" href="https://www.instagram.com/vamas_thedesignerblouses/" target="_blank" rel="noopener" aria-label="Instagram reel">
+        <div class="reel-card__veil"></div>
+        <div class="reel-card__play"><div class="reel-card__play-btn"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div></div>
+        <div class="reel-card__info"><div class="reel-card__views">3.7k views</div><div class="reel-card__handle">@vamas_thedesignerblouses</div></div>
+        <div class="reel-card__watch"><span>Watch Reel</span></div>
+      </a>
+      <a class="reel-card g3" href="https://www.instagram.com/vamas_thedesignerblouses/" target="_blank" rel="noopener" aria-label="Instagram reel">
+        <div class="reel-card__veil"></div>
+        <div class="reel-card__play"><div class="reel-card__play-btn"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div></div>
+        <div class="reel-card__info"><div class="reel-card__views">1.8k views</div><div class="reel-card__handle">@vamas_thedesignerblouses</div></div>
+        <div class="reel-card__watch"><span>Watch Reel</span></div>
+      </a>
+      <a class="reel-card g4" href="https://www.instagram.com/vamas_thedesignerblouses/" target="_blank" rel="noopener" aria-label="Instagram reel">
+        <div class="reel-card__veil"></div>
+        <div class="reel-card__play"><div class="reel-card__play-btn"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div></div>
+        <div class="reel-card__info"><div class="reel-card__views">4.2k views</div><div class="reel-card__handle">@vamas_thedesignerblouses</div></div>
+        <div class="reel-card__watch"><span>Watch Reel</span></div>
+      </a>
+      <a class="reel-card g5" href="https://www.instagram.com/vamas_thedesignerblouses/" target="_blank" rel="noopener" aria-label="Instagram reel">
+        <div class="reel-card__veil"></div>
+        <div class="reel-card__play"><div class="reel-card__play-btn"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div></div>
+        <div class="reel-card__info"><div class="reel-card__views">5.1k views</div><div class="reel-card__handle">@vamas_thedesignerblouses</div></div>
+        <div class="reel-card__watch"><span>Watch Reel</span></div>
+      </a>
+      <a class="reel-card g6" href="https://www.instagram.com/vamas_thedesignerblouses/" target="_blank" rel="noopener" aria-label="Instagram reel">
+        <div class="reel-card__veil"></div>
+        <div class="reel-card__play"><div class="reel-card__play-btn"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div></div>
+        <div class="reel-card__info"><div class="reel-card__views">2.9k views</div><div class="reel-card__handle">@vamas_thedesignerblouses</div></div>
+        <div class="reel-card__watch"><span>Watch Reel</span></div>
+      </a>
+    </div>
+    <div class="ig-reels__cta aos">
+      <a class="btn btn-primary" href="https://www.instagram.com/vamas_thedesignerblouses/" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        Follow on Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- STYLE MATCH STUDIO -->
+<section class="sms">
+  <div class="wrap">
+    <div class="sec-head aos">
+      <span class="t-eyebrow">VAMAS Exclusive</span>
+      <h2 class="t-h2">Style Your Saree Blouse Match Studio</h2>
+      <p>Answer 4 quick questions — we'll find your perfect blouse.</p>
+    </div>
+    <div class="sms__card aos" id="smsCard">
+      <!-- Progress bar -->
+      <div class="sms__prog"><div class="sms__prog-fill" id="smsProgFill" style="width:25%"></div></div>
+
+      <!-- Steps container -->
+      <div id="smsSteps">
+        <!-- Step 1 -->
+        <div class="sms__step" id="smsStep1">
+          <div class="sms__step-label">Step 1 of 4</div>
+          <div class="sms__step-q">What colour is your saree?</div>
+          <div class="sms__options">
+            <button class="sms-opt" data-step="1" data-val="red"><span class="sms-opt__dot" style="background:#8b1a1a"></span>Red / Maroon</button>
+            <button class="sms-opt" data-step="1" data-val="pink"><span class="sms-opt__dot" style="background:#d4608a"></span>Pink / Rose</button>
+            <button class="sms-opt" data-step="1" data-val="green"><span class="sms-opt__dot" style="background:#2e7d5e"></span>Green / Teal</button>
+            <button class="sms-opt" data-step="1" data-val="gold"><span class="sms-opt__dot" style="background:#D4A853"></span>Gold / Yellow</button>
+            <button class="sms-opt" data-step="1" data-val="blue"><span class="sms-opt__dot" style="background:#1d3a6b"></span>Blue / Navy</button>
+            <button class="sms-opt" data-step="1" data-val="purple"><span class="sms-opt__dot" style="background:#6B2D8B"></span>Purple / Lavender</button>
+          </div>
+          <div class="sms__nav">
+            <button class="btn btn-primary" id="smsNext1" onclick="smsNext(2)" disabled>Next →</button>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="sms__step" id="smsStep2" style="display:none">
+          <div class="sms__step-label">Step 2 of 4</div>
+          <div class="sms__step-q">What's the occasion?</div>
+          <div class="sms__options">
+            <button class="sms-opt" data-step="2" data-val="wedding"><span class="sms-opt__ic">💍</span>Wedding</button>
+            <button class="sms-opt" data-step="2" data-val="festive"><span class="sms-opt__ic">🪔</span>Festive</button>
+            <button class="sms-opt" data-step="2" data-val="casual"><span class="sms-opt__ic">🌿</span>Casual</button>
+            <button class="sms-opt" data-step="2" data-val="cocktail"><span class="sms-opt__ic">🥂</span>Cocktail</button>
+          </div>
+          <div class="sms__nav">
+            <button class="btn btn-ghost" style="border-color:var(--divider);color:var(--body)" onclick="smsBack(1)">← Back</button>
+            <button class="btn btn-primary" id="smsNext2" onclick="smsNext(3)" disabled>Next →</button>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="sms__step" id="smsStep3" style="display:none">
+          <div class="sms__step-label">Step 3 of 4</div>
+          <div class="sms__step-q">Sleeve preference?</div>
+          <div class="sms__options">
+            <button class="sms-opt" data-step="3" data-val="sleeveless"><span class="sms-opt__ic">🙆</span>Sleeveless</button>
+            <button class="sms-opt" data-step="3" data-val="elbow"><span class="sms-opt__ic">👘</span>Elbow Sleeve</button>
+            <button class="sms-opt" data-step="3" data-val="attached"><span class="sms-opt__ic">🧥</span>Attached Sleeve</button>
+            <button class="sms-opt" data-step="3" data-val="strappy"><span class="sms-opt__ic">✨</span>Strappy</button>
+          </div>
+          <div class="sms__nav">
+            <button class="btn btn-ghost" style="border-color:var(--divider);color:var(--body)" onclick="smsBack(2)">← Back</button>
+            <button class="btn btn-primary" id="smsNext3" onclick="smsNext(4)" disabled>Next →</button>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="sms__step" id="smsStep4" style="display:none">
+          <div class="sms__step-label">Step 4 of 4</div>
+          <div class="sms__step-q">Preferred neck design?</div>
+          <div class="sms__options">
+            <button class="sms-opt" data-step="4" data-val="round"><span class="sms-opt__ic">⭕</span>Round Neck</button>
+            <button class="sms-opt" data-step="4" data-val="vneck"><span class="sms-opt__ic">🔻</span>V-Neck</button>
+            <button class="sms-opt" data-step="4" data-val="boat"><span class="sms-opt__ic">🚢</span>Boat Neck</button>
+            <button class="sms-opt" data-step="4" data-val="corset"><span class="sms-opt__ic">🎀</span>Corset / Sweetheart</button>
+          </div>
+          <div class="sms__nav">
+            <button class="btn btn-ghost" style="border-color:var(--divider);color:var(--body)" onclick="smsBack(3)">← Back</button>
+            <button class="btn btn-primary" id="smsNext4" onclick="smsFinish()" disabled>Find My Blouses →</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="sms__results" id="smsResults">
+        <div class="sms__loader" id="smsLoader">
+          <div class="sms__loader-spin"></div><br>Finding your matches...
+        </div>
+        <div id="smsMatchGrid" style="display:none">
+          <div class="sms__step-q" style="margin-bottom:20px">Your Perfect Matches</div>
+          <div class="sms__result-grid grid-p" id="smsGridEl"></div>
+          <div class="sms__again">
+            <button class="btn btn-primary" onclick="smsReset()">Start Over</button>
+            <a class="btn btn-ghost" href="collection.html" style="border-color:var(--primary);color:var(--primary);margin-left:12px">View All Blouses</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="news" id="contact">
+  <div class="wrap news__grid">
+    <div class="aos">
+      <h2>Get 10% Off Your First Order</h2>
+      <p>Join 10,000+ subscribers for new arrivals, exclusive offers, and styling tips.</p>
+    </div>
+    <div class="aos">
+      <form class="news__form" id="newsForm" novalidate>
+        <input type="email" name="email" placeholder="Your email address" required aria-label="Email address">
+        <button class="btn btn-accent" type="submit">Subscribe</button>
+      </form>
+      <p class="news__ok" id="newsOk">🎉 Your 10% OFF code is on its way!</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div class="foot__brand">
+        <span class="foot__logo">VAMAS<small>The Designer Blouses</small></span>
+        <p>Designer saree blouses crafted in Mumbai — premium fabrics, perfect fit, delivered across India.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/vamas_thedesignerblouses" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M15 3h-2.5A4.5 4.5 0 0 0 8 7.5V10H5v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3V3Z"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 5 3-5 3V9Z"/></svg></a>
+          <a href="https://wa.me/919594283890" aria-label="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M21 12a8 8 0 1 0-3.1 6.3L21 19z"/><path d="M9 10c.5 2.5 2.5 4.5 5 5l1-1.5 2.5 1"/></svg></a>
+        </div>
+      </div>
+      <nav aria-label="Quick links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Blouse Sizing Guide</a></li>
+          <li><a href="#">Delivery &amp; Returns</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Shop">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="collection.html">All Blouses</a></li>
+          <li><a href="collection.html">Fresh Arrivals</a></li>
+          <li><a href="collection.html">Best Sellers</a></li>
+          <li><a href="collection.html">Corset Blouses</a></li>
+          <li><a href="collection.html">The Boutique Collection</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h4>Get in Touch</h4>
+        <ul class="foot__contact">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>22, Ground Floor, Neelkanth Business Park, Kirol Road, Vidyavihar W, Mumbai 400086</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z"/></svg><a href="tel:+919594283890">+91 95942 83890</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><a href="mailto:support@vamas.in">support@vamas.in</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><span>Mon–Sat · 10am–7pm IST</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="foot__trust">🔒 SSL Secure &nbsp;·&nbsp; Shopify Secure &nbsp;·&nbsp; DPDP Compliant &nbsp;·&nbsp; 100% Genuine Products</div>
+  <div class="wrap foot__legal">
+    <nav aria-label="Policies">
+      <a href="#">Privacy</a><a href="#">Refund</a><a href="#">Terms</a><a href="#">Shipping</a>
+    </nav>
+    <span>Visa · Mastercard · UPI · RuPay · PayPal</span>
+    <span>© 2025 VAMAS · Made in Mumbai 🇮🇳</span>
+  </div>
+</footer>
+
+<!-- CART DRAWER -->
+<div class="veil" id="veil"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Shopping cart">
+  <div class="drawer__head">
+    <b>Your Cart (<span id="drawerCt">0</span>)</b>
+    <button class="icon-btn" id="drawerClose" aria-label="Close cart" style="font-size:22px">×</button>
+  </div>
+  <div class="drawer__body">
+    <div class="ship-meter" id="shipMeter" hidden>
+      <span id="shipMsg"></span>
+      <div class="track"><div class="fill" id="shipFill"></div></div>
+    </div>
+    <div id="cartLines"></div>
+    <div class="drawer__empty" id="cartEmpty">
+      <span>🛍️</span>
+      Your cart is empty.<br>
+      <a href="collection.html" class="btn btn-primary" style="margin-top:18px">Start Shopping</a>
+    </div>
+  </div>
+  <div class="drawer__foot" id="drawerFoot" hidden>
+    <div class="drawer__sub"><span>Subtotal</span><b id="cartSub">₹0</b></div>
+    <a class="btn btn-primary" href="#">Checkout</a>
+    <p class="drawer__note">🔒 Secure checkout · Free returns · Ships in 1–2 days</p>
+  </div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* ========== DATA ========== */
+const PRODUCTS={
+  fresh:[
+    {t:"Corset Silk Blouse",f:"Silk · Sleeveless",p:2199,w:2999,b:"new",g:"g1",sw:["#1a1a2e","#7a1f3d","#1d3a5f"]},
+    {t:"Brocade Elbow Sleeve Blouse",f:"Brocade · Elbow Sleeve",p:1799,w:null,b:"new",g:"g2",sw:["#8c1d40","#caa44a","#2e4a2e"]},
+    {t:"Dual-Neck Tissue Blouse",f:"Tissue · Attached Sleeve",p:1499,w:1999,b:"sale",g:"g3",sw:["#d8c7e8","#caa44a"]},
+    {t:"V-Neck Cotton Blouse",f:"Cotton · Elbow Sleeve",p:999,w:null,b:"new",g:"g4",sw:["#ffffff","#1a1a2e","#7a1f3d","#caa44a"]},
+    {t:"Strappy Imported Blouse",f:"Imported · Strappy",p:1899,w:null,b:"new",g:"g5",sw:["#1a1a2e","#5a4194"]},
+    {t:"Boat Neck Brocade Blouse",f:"Brocade · Elbow Sleeve",p:2099,w:2599,b:"sale",g:"g6",sw:["#7a2d4f","#caa44a","#1a1a2e"]},
+    {t:"Backless Silk Blouse",f:"Silk · Sleeveless",p:2499,w:null,b:"new",g:"g2",sw:["#8c1d40","#1d3a5f"]},
+    {t:"High-Neck Tafeta Blouse",f:"Tafeta · Attached Sleeve",p:1299,w:null,b:"new",g:"g3",sw:["#2e1d4a","#caa44a","#ffffff"]}
+  ],
+  best:[
+    {t:"Iconic V-Neck Silk Blouse",f:"Silk · Elbow Sleeve",p:1899,w:null,b:"best",g:"g4",sw:["#caa44a","#1a1a2e","#7a1f3d"]},
+    {t:"Classic Corset Blouse — Black",f:"Silk · Sleeveless",p:2299,w:null,b:"best",g:"g1",sw:["#1a1a2e"]},
+    {t:"Brocade Boutique Blouse",f:"Brocade · Elbow Sleeve",p:2499,w:2999,b:"sale",g:"g2",sw:["#8c1d40","#caa44a"]},
+    {t:"Everyday Cotton Blouse",f:"Cotton · Elbow Sleeve",p:899,w:null,b:"best",g:"g5",sw:["#ffffff","#1a1a2e","#5a4194","#2e4a2e"]},
+    {t:"Plain Edit — Deep Plum",f:"Silk · Attached Sleeve",p:1599,w:null,b:"best",g:"g3",sw:["#4A1E61"]},
+    {t:"Festive Gold Tissue Blouse",f:"Tissue · Sleeveless",p:1999,w:2399,b:"sale",g:"g4",sw:["#caa44a","#ffffff"]},
+    {t:"Sweetheart Brocade Blouse",f:"Brocade · Strappy",p:2199,w:null,b:"best",g:"g6",sw:["#7a2d4f","#1a1a2e"]},
+    {t:"Dual-Tone Silk Blouse",f:"Silk · Elbow Sleeve",p:1799,w:null,b:"best",g:"g1",sw:["#6B2D8B","#caa44a"]}
+  ],
+  value:[
+    {t:"Plain Cotton Blouse — Ivory",f:"Cotton · Elbow Sleeve",p:699,w:999,b:"sale",g:"g5",sw:["#ffffff","#f5e9d0"]},
+    {t:"Simple Silk Blouse — Black",f:"Silk · Attached Sleeve",p:899,w:1299,b:"sale",g:"g1",sw:["#1a1a2e"]},
+    {t:"Everyday Tafeta Blouse",f:"Tafeta · Elbow Sleeve",p:799,w:1099,b:"sale",g:"g3",sw:["#2e1d4a","#7a1f3d"]},
+    {t:"Casual V-Neck Blouse",f:"Cotton · Sleeveless",p:749,w:999,b:"sale",g:"g4",sw:["#caa44a","#ffffff","#1a1a2e"]},
+    {t:"Classic Round Neck Blouse",f:"Cotton · Elbow Sleeve",p:649,w:899,b:"sale",g:"g2",sw:["#8c1d40","#2e4a2e"]},
+    {t:"Plain Edit — Midnight",f:"Tafeta · Attached Sleeve",p:949,w:1399,b:"sale",g:"g6",sw:["#1a1a2e","#1d3a5f"]},
+    {t:"Soft Tissue Blouse",f:"Tissue · Sleeveless",p:999,w:1499,b:"sale",g:"g5",sw:["#d8c7e8"]},
+    {t:"Daily Wear Blouse — Rust",f:"Cotton · Elbow Sleeve",p:599,w:849,b:"sale",g:"g4",sw:["#a8552e","#caa44a"]}
+  ]
+};
+const fmt=n=>"₹"+n.toLocaleString("en-IN");
+const BADGES={new:["b-new","NEW"],sale:["b-sale","SALE"],best:["b-best","BESTSELLER"],out:["b-out","SOLD OUT"]};
+
+function cardHTML(p,i,key){
+  const off=p.w?Math.round((1-p.p/p.w)*100):0;
+  const [bc,bt]=BADGES[p.b];
+  return `<article class="pc">
+    <div class="pc__media">
+      <span class="pc__ph ${p.g}"><i>${p.t.charAt(0)}</i></span>
+      <span class="pc__badge ${bc}">${bt}</span>
+      <button class="pc__heart" data-wish="${key}-${i}" aria-label="Add ${p.t} to wishlist">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3.4 1-4.5 2.5C10.9 4 9.3 3 7.5 3A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7Z"/></svg>
+      </button>
+      <button class="pc__quick" data-add-key="${key}" data-add-i="${i}">+ Quick Add</button>
+    </div>
+    <p class="pc__tag">${p.f}</p>
+    <h3 class="pc__title"><a href="product.html">${p.t}</a></h3>
+    <div class="pc__price">
+      <span class="now">${fmt(p.p)}</span>
+      ${p.w?`<span class="was">${fmt(p.w)}</span><span class="off">${off}% OFF</span>`:""}
+    </div>
+    <div class="pc__sw">${p.sw.map(c=>`<span class="sw" style="background:${c}"></span>`).join("")}${p.sw.length>3?`<small>+${p.sw.length-3} more</small>`:""}</div>
+  </article>`;
+}
+function fillGrid(id,key){document.getElementById(id).innerHTML=PRODUCTS[key].map((p,i)=>cardHTML(p,i,key)).join("")}
+fillGrid("freshGrid","fresh");fillGrid("bestGrid","best");fillGrid("valueGrid","value");
+
+/* ========== TABS ========== */
+document.querySelectorAll(".tab").forEach(tab=>{
+  tab.addEventListener("click",()=>{
+    document.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected","false"));
+    document.querySelectorAll(".panel").forEach(p=>p.classList.remove("active"));
+    tab.setAttribute("aria-selected","true");
+    document.getElementById(tab.dataset.panel).classList.add("active");
+  });
+});
+
+/* ========== ANNOUNCEMENT ========== */
+const bar=document.getElementById("bar");
+if(localStorage.getItem("vamas_bar")==="1")bar.style.display="none";
+document.getElementById("barClose").addEventListener("click",()=>{bar.style.display="none";localStorage.setItem("vamas_bar","1")});
+
+/* ========== HEADER SCROLL ========== */
+const header=document.getElementById("header");
+let ticking=false;
+addEventListener("scroll",()=>{
+  if(ticking)return;ticking=true;
+  requestAnimationFrame(()=>{
+    header.classList.toggle("scrolled",scrollY>80);
+    const chev=document.getElementById("chev");
+    if(chev&&scrollY>120)chev.style.opacity="0";
+    ticking=false;
+  });
+},{passive:true});
+
+/* ========== MOBILE NAV ========== */
+const mNav=document.getElementById("mNav"),burger=document.getElementById("burger");
+function mOpen(o){mNav.classList.toggle("open",o);mNav.setAttribute("aria-hidden",String(!o));burger.setAttribute("aria-expanded",String(o));document.body.style.overflow=o?"hidden":""}
+burger.addEventListener("click",()=>mOpen(true));
+document.getElementById("mClose").addEventListener("click",()=>mOpen(false));
+mNav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>mOpen(false)));
+
+/* ========== HERO CAROUSEL ========== */
+(function(){
+  const slides=document.querySelectorAll(".hero-slide");
+  const dots=document.querySelectorAll(".carousel-dot");
+  let cur=0,timer=null,paused=false;
+  const carousel=document.getElementById("heroCarousel");
+
+  function goTo(n){
+    slides[cur].classList.remove("active");
+    dots[cur].classList.remove("active");
+    cur=(n+slides.length)%slides.length;
+    slides[cur].classList.add("active");
+    dots[cur].classList.add("active");
+  }
+  function start(){timer=setInterval(()=>{if(!paused)goTo(cur+1)},5000)}
+  function reset(){clearInterval(timer);start()}
+
+  document.getElementById("cNext").addEventListener("click",()=>{goTo(cur+1);reset()});
+  document.getElementById("cPrev").addEventListener("click",()=>{goTo(cur-1);reset()});
+  dots.forEach((d,i)=>d.addEventListener("click",()=>{goTo(i);reset()}));
+  carousel.addEventListener("mouseenter",()=>{paused=true});
+  carousel.addEventListener("mouseleave",()=>{paused=false});
+  // touch swipe
+  let tx=0;
+  carousel.addEventListener("touchstart",e=>{tx=e.touches[0].clientX},{passive:true});
+  carousel.addEventListener("touchend",e=>{
+    const dx=e.changedTouches[0].clientX-tx;
+    if(Math.abs(dx)>50){goTo(cur+(dx<0?1:-1));reset()}
+  },{passive:true});
+  start();
+})();
+
+/* ========== CART ========== */
+let cart=JSON.parse(localStorage.getItem("vamas_cart")||"[]");
+const drawer=document.getElementById("drawer"),veil=document.getElementById("veil");
+function saveCart(){localStorage.setItem("vamas_cart",JSON.stringify(cart))}
+function openCart(){drawer.classList.add("open");veil.classList.add("show");document.body.style.overflow="hidden";renderCart()}
+function closeCart(){drawer.classList.remove("open");veil.classList.remove("show");document.body.style.overflow=""}
+document.getElementById("cartBtn").addEventListener("click",openCart);
+document.getElementById("drawerClose").addEventListener("click",closeCart);
+veil.addEventListener("click",closeCart);
+addEventListener("keydown",e=>{if(e.key==="Escape"){closeCart();mOpen(false)}});
+
+function renderCart(){
+  const lines=document.getElementById("cartLines"),empty=document.getElementById("cartEmpty"),foot=document.getElementById("drawerFoot"),meter=document.getElementById("shipMeter");
+  const count=cart.reduce((s,l)=>s+l.q,0),total=cart.reduce((s,l)=>s+l.p*l.q,0);
+  document.getElementById("drawerCt").textContent=count;
+  const ct=document.getElementById("cartCt");ct.textContent=count;ct.hidden=count===0;
+  empty.style.display=count?"none":"block";foot.hidden=!count;meter.hidden=!count;
+  if(count){
+    const left=Math.max(0,999-total);
+    document.getElementById("shipMsg").innerHTML=left>0?`You're <b>${fmt(left)}</b> away from <b>Free Shipping!</b>`:"🎉 <b>Free shipping unlocked!</b>";
+    document.getElementById("shipFill").style.width=Math.min(total/999*100,100)+"%";
+  }
+  document.getElementById("cartSub").textContent=fmt(total);
+  lines.innerHTML=cart.map((l,i)=>`<div class="line">
+    <span class="line__ph ${l.g}"><i>${l.t.charAt(0)}</i></span>
+    <div><b>${l.t}</b><small>Size: M</small><br>
+      <span class="line__qty"><button data-dq="${i}" aria-label="Decrease quantity">−</button>${l.q}<button data-iq="${i}" aria-label="Increase quantity">+</button></span>
+    </div>
+    <span class="line__price">${fmt(l.p*l.q)}</span>
+  </div>`).join("");
+}
+document.addEventListener("click",e=>{
+  const add=e.target.closest("[data-add-key]");
+  if(add){
+    const p=PRODUCTS[add.dataset.addKey][+add.dataset.addI];
+    const ex=cart.find(l=>l.t===p.t);
+    ex?ex.q++:cart.push({t:p.t,p:p.p,g:p.g,q:1});
+    saveCart();renderCart();toast(`Added "${p.t}" ✓`);openCart();
+  }
+  const iq=e.target.closest("[data-iq]"),dq=e.target.closest("[data-dq]");
+  if(iq){cart[+iq.dataset.iq].q++;saveCart();renderCart()}
+  if(dq){const i=+dq.dataset.dq;cart[i].q--;if(cart[i].q<1)cart.splice(i,1);saveCart();renderCart()}
+  const w=e.target.closest("[data-wish]");
+  if(w){
+    w.classList.toggle("on");
+    let ws=JSON.parse(localStorage.getItem("vamas_wish")||"[]");
+    const k=w.dataset.wish;
+    ws=ws.includes(k)?ws.filter(x=>x!==k):[...ws,k];
+    localStorage.setItem("vamas_wish",JSON.stringify(ws));
+    const wc=document.getElementById("wishCt");wc.textContent=ws.length;wc.hidden=!ws.length;
+    toast(w.classList.contains("on")?"Saved to wishlist ♥":"Removed from wishlist");
+  }
+});
+renderCart();
+(()=>{const ws=JSON.parse(localStorage.getItem("vamas_wish")||"[]");
+ws.forEach(k=>{const b=document.querySelector(`[data-wish="${k}"]`);if(b)b.classList.add("on")});
+const wc=document.getElementById("wishCt");wc.textContent=ws.length;wc.hidden=!ws.length})();
+
+/* ========== TOAST ========== */
+let toastT;
+function toast(msg){
+  const t=document.getElementById("toast");
+  t.textContent=msg;t.classList.add("show");
+  clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove("show"),2400);
+}
+
+/* ========== NEWSLETTER ========== */
+document.getElementById("newsForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const em=e.target.email.value.trim();
+  if(!/^\S+@\S+\.\S+$/.test(em)){toast("Please enter a valid email");return}
+  e.target.style.display="none";
+  document.getElementById("newsOk").style.display="block";
+});
+
+/* ========== STYLE MATCH STUDIO ========== */
+const smsAnswers={};
+function smsSelectOpt(btn){
+  const step=btn.dataset.step;
+  document.querySelectorAll(`.sms-opt[data-step="${step}"]`).forEach(b=>b.classList.remove("sel"));
+  btn.classList.add("sel");
+  smsAnswers[step]=btn.dataset.val;
+  const nextBtn=document.getElementById("smsNext"+step);
+  if(nextBtn)nextBtn.disabled=false;
+}
+document.addEventListener("click",e=>{
+  const opt=e.target.closest(".sms-opt");
+  if(opt&&opt.dataset.step)smsSelectOpt(opt);
+});
+function smsNext(toStep){
+  document.querySelectorAll(".sms__step").forEach(s=>s.style.display="none");
+  const el=document.getElementById("smsStep"+toStep);
+  if(el)el.style.display="block";
+  document.getElementById("smsProgFill").style.width=(toStep/4*100)+"%";
+}
+function smsBack(toStep){
+  document.querySelectorAll(".sms__step").forEach(s=>s.style.display="none");
+  document.getElementById("smsStep"+toStep).style.display="block";
+  document.getElementById("smsProgFill").style.width=(toStep/4*100)+"%";
+}
+function smsFinish(){
+  document.getElementById("smsSteps").style.display="none";
+  const res=document.getElementById("smsResults");
+  res.classList.add("show");
+  res.querySelector("#smsLoader").style.display="block";
+  res.querySelector("#smsMatchGrid").style.display="none";
+  setTimeout(()=>{
+    res.querySelector("#smsLoader").style.display="none";
+    res.querySelector("#smsMatchGrid").style.display="block";
+    // pick 4 products — filter by sleeve/neck match or random
+    const allP=[...PRODUCTS.fresh,...PRODUCTS.best,...PRODUCTS.value];
+    const sleeveMap={sleeveless:"Sleeveless",elbow:"Elbow Sleeve",attached:"Attached Sleeve",strappy:"Strappy"};
+    const sleeve=sleeveMap[smsAnswers[3]]||"";
+    let matched=allP.filter(p=>sleeve&&p.f.includes(sleeve));
+    if(matched.length<4)matched=[...matched,...allP.filter(p=>!matched.includes(p))];
+    const picks=matched.slice(0,4);
+    document.getElementById("smsGridEl").innerHTML=picks.map((p,i)=>cardHTML(p,i,"fresh")).join("");
+  },1200);
+}
+function smsReset(){
+  Object.keys(smsAnswers).forEach(k=>delete smsAnswers[k]);
+  document.getElementById("smsSteps").style.display="block";
+  document.getElementById("smsResults").classList.remove("show");
+  document.querySelectorAll(".sms-opt").forEach(b=>b.classList.remove("sel"));
+  document.querySelectorAll(".sms__step").forEach(s=>s.style.display="none");
+  document.getElementById("smsStep1").style.display="block";
+  document.getElementById("smsProgFill").style.width="25%";
+  ["smsNext1","smsNext2","smsNext3","smsNext4"].forEach(id=>{
+    const b=document.getElementById(id);if(b)b.disabled=true;
+  });
+}
+
+/* ========== SCROLL ANIMATIONS ========== */
+const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches||location.search.includes("noanim");
+if(!reduce){
+  document.querySelectorAll(".aos,.stagger").forEach(el=>{
+    const r=el.getBoundingClientRect();
+    if(r.top<innerHeight&&r.bottom>0){
+      el.style.transition="none";
+      el.querySelectorAll(":scope>*").forEach(c=>c.style.transition="none");
+      el.classList.add("in");
+      requestAnimationFrame(()=>requestAnimationFrame(()=>{
+        el.style.transition="";
+        el.querySelectorAll(":scope>*").forEach(c=>c.style.transition="");
+      }));
+    }
+  });
+  const io=new IntersectionObserver(es=>{
+    es.forEach(en=>{
+      if(!en.isIntersecting)return;
+      en.target.classList.add("in");
+      en.target.querySelectorAll(".count").forEach(c=>{
+        if(c.dataset.done)return;c.dataset.done=1;
+        const to=+c.dataset.to,t0=performance.now();
+        (function step(now){
+          const k=Math.min((now-t0)/1500,1),ease=1-Math.pow(1-k,3);
+          c.textContent=Math.round(to*ease).toLocaleString("en-IN");
+          if(k<1)requestAnimationFrame(step);
+        })(t0);
+      });
+      io.unobserve(en.target);
+    });
+  },{threshold:.15});
+  document.querySelectorAll(".aos,.stagger").forEach(el=>io.observe(el));
+}else{
+  document.querySelectorAll(".aos,.stagger").forEach(el=>el.classList.add("in"));
+  document.querySelectorAll(".count").forEach(c=>c.textContent=(+c.dataset.to).toLocaleString("en-IN"));
+}
+</script>
+</body>
+</html>
